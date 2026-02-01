@@ -1,2 +1,2 @@
-# Full Stack ‑websovelluskehitys (Osa 6), lisäosa 1
+# Full Stack ‑websovelluskehitys: Lisäosa 1 (Osa 6)
 Tehtävien palautukset Helsingin yliopiston [Full Stack Open](https://fullstackopen.com/) ‑verkkokurssilta.
