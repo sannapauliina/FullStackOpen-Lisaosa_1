@@ -18,14 +18,14 @@ export const createNew = async (content) => {
   return await response.json()
 }
 
-export const updateVotes = async (anecdote) => {
-  const updated = { ...anecdote, votes: anecdote.votes + 1 }
+export const update = async (anecdote) => {
   const response = await fetch(`${baseUrl}/${anecdote.id}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(updated)
+    body: JSON.stringify(anecdote)
   })
   return await response.json()
 }
+
 
 
