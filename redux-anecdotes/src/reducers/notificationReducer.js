@@ -24,3 +24,4 @@ export const showNotification = (message, seconds) => {
     }, seconds * 1000)
   }
 }
+
